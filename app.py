@@ -85,7 +85,7 @@ def create_backend_service():
     )
 
     operation = backend_service_client.insert(project=PROJECT_ID, backend_service_resource=backend_service)
-    print(f"✅ Backend Service {LB_BACKEND_NAME} created!")
+    print(f"✅ Backend Service {LB_FrontEND_NAME} created!")
 
 if __name__ == "__main__":
     create_image_from_instance()
