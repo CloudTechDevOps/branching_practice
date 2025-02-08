@@ -1,7 +1,7 @@
 from google.cloud import compute_v1
 
 PROJECT_ID = "your-project-id"
-ZONE = "us-central1-a"
+ZONE = "us-central1-b"
 INSTANCE_NAME = "your-running-instance"
 IMAGE_NAME = "my-app-image"
 INSTANCE_TEMPLATE_NAME = "my-instance-template"
